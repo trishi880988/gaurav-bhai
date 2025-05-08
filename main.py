@@ -28,7 +28,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 from base64 import b64encode, b64decode
 from helper import *
-from config import API_ID, API_HASH, BOT_TOKEN
+from config import *
 
 # watermark_text = ""
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
@@ -37,15 +37,15 @@ bot = Client("bot",
              api_id= API_ID,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
              api_hash=API_HASH)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
-owner_id = [7894064974]
-auth_users = [7894064974]
-photo1 = 'https://envs.sh/PQ_.jpg'
+owner_id = [6103594386]
+auth_users = [6103594386]
+photo1 = ''
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")    
 photo = "photo.jpg"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
 api_url = "http://master-api-v3.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
-token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
+#token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
 
 import random
 
@@ -53,22 +53,22 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/ROWDYOFFICIALBOT"),
-            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/+7dyGkwBfH99iODU9"),
+            InlineKeyboardButton(text="📞 𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃", url="http://t.me/ytbr_67"),
+            #InlineKeyboardButton(text="🔍 Channel", url=""),
         ],
     ]
 )
 # Image URLs for the random image feature
 image_urls = [
     
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
-    "https://graph.org/file/043746948ffaa41e2880d-e4039e74b6834b0e5c.jpg",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     # Add more image URLs as needed
 ]
 # Start command handler
@@ -140,7 +140,7 @@ and unlock the full potential of your new bot! 🔓
 SUBSCRIPTION_FILE = "subscription_data.txt"
 
 # Admin ID
-YOUR_ADMIN_ID = 7894064974
+YOUR_ADMIN_ID = 6103594386
 
 # Function to read subscription data
 def read_subscription_data():
@@ -204,7 +204,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 7894064974
+YOUR_ADMIN_ID = 6103594386
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -539,8 +539,8 @@ async def account_login(bot: Client, m: Message):
                       f"╭━━━━━━━━━━━╮\n"
                       f"💫 **𝐕ɪᴅᴇⱺ 𝐈𝐃** : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"**📁𝐓ɪᴛʟᴇ** : `{name1}{res}[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67) .mkv`\n\n"
-                      f"**📚𝐂ⱺᴜʀꜱᴇ** : {b_name}\n\n"
+                      f"**📁𝐓ɪᴛʟᴇ** : `{name1}[{res}]`[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67) .mkv\n\n"
+                      f"**📚𝐂ⱺᴜʀꜱᴇ** : **{b_name}**\n\n"
                       f"**⚡Dⱺw𐓣𝗅ⱺ𝖺𝖽ed By** : {MR}\n\n"
                      )                
                 
@@ -548,17 +548,17 @@ async def account_login(bot: Client, m: Message):
                      f"╭━━━━━━━━━━━╮\n"
                      f"📁Fɪʟᴇ 𝐈𝐃 : {str(count).zfill(3)}\n"
                      f"╰━━━━━━━━━━━╯\n\n"
-                     f"**📁𝐓ɪᴛʟᴇ** : `{name1}[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67).pdf`\n\n"
-                     f"**📚𝐂ⱺᴜʀꜱᴇ** : {b_name}\n\n"
+                     f"**📁𝐓ɪᴛʟᴇ** : `{name1}`[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67).pdf\n\n"
+                     f"**📚𝐂ⱺᴜʀꜱᴇ** : **{b_name}**\n\n"
                      f"**⚡Dⱺw𐓣𝗅ⱺ𝖺𝖽ed By** : {MR}\n\n" 
                     )
 
                cc2 = (
                       f"╭━━━━━━━━━━━╮\n"
-                      f"💫 **𝐕ɪᴅᴇⱺ 𝐈𝐃** : {str(count).zfill(3)}\n"
+                      f"💫 **𝐈MG 𝐈𝐃** : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"**📁𝐓ɪᴛʟᴇ** : `{name1}{res}[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67) .mkv`\n\n"
-                      f"**📚𝐂ⱺᴜʀꜱᴇ** : {b_name}\n\n"
+                      f"**📁𝐓ɪᴛʟᴇ** : `{name1}[{res}]`[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67).jpg\n\n"
+                      f"**📚𝐂ⱺᴜʀꜱᴇ** : **{b_name}**\n\n"
                       f"**⚡Dⱺw𐓣𝗅ⱺ𝖺𝖽ed By** : {MR}\n\n"
                      )                
                
@@ -566,8 +566,8 @@ async def account_login(bot: Client, m: Message):
                       f"╭━━━━━━━━━━━╮\n"
                       f"💫 **𝐕ɪᴅᴇⱺ 𝐈𝐃** : {str(count).zfill(3)}\n"
                       f"╰━━━━━━━━━━━╯\n\n"
-                      f"**📁𝐓ɪᴛʟᴇ** : `{name1}{res}[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67) .mkv`\n\n"
-                      f"**📚𝐂ⱺᴜʀꜱᴇ** : {b_name}\n\n"
+                      f"**📁𝐓ɪᴛʟᴇ** : `{name1}`[𝙶𝙰𝚄𝚁𝙰𝚅 𝚁𝙰𝙹𝙿𝚄𝚃](http://t.me/ytbr_67).mkv\n\n"
+                      f"**📚𝐂ⱺᴜʀꜱᴇ** : **{b_name}**\n\n"
                       f"**⚡Dⱺw𐓣𝗅ⱺ𝖺𝖽ed By** : {MR}\n\n"
                      )
 
@@ -651,6 +651,7 @@ async def account_login(bot: Client, m: Message):
                                 chat_id=m.chat.id,
                                 caption = cc2,
                                 photo= f'{name}.jpg',  )
+                                count += 1
                         except subprocess.CalledProcessError:
                             await message.reply("Failed to download the image. Please check the URL.")
                         except Exception as e:
