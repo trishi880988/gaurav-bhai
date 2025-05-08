@@ -1,26 +1,34 @@
 {
-    "name": "𝐓𝐞𝐱𝐭 Uploader 𝐃𝐈𝐋𝐉𝐀𝐋𝐄  ™",
-    "description": "Download videos from various websites using this telegram bot",
-    "logo": "https://envs.sh/srE.jpg",
+    "name": "Drm Uploader By 🅱🅴🅰🆂🆃 👑",
+    "description": "DRM Uploader",
+    "logo": "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
     "keywords": [
         "text-video",
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/hackercoder24/updatetxt2vid",
-    "success_url": "https://telegram.me/diljalechatsherebot",
+    "repository": "https://github.com/Chiru63019",
+    "success_url": "https://telegram.me/skillwithchiru",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "26416404",
+            "description": "enter_your_api_id",
+            "value": "",
             "required": true
         },
         "API_HASH": {
-            "description": "655b8dc1517dacb007deb53fc0fda30d",
+            "description": "enter_your_api_harsh",
+            "value": "",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Enter your bot token",
+            "value": "",
+            "required": true
+        },
+        "token_cp":{
+            "description": "Enter your classplus token",
+            "value": "eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r",
             "required": true
         }
     },
