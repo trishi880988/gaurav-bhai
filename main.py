@@ -39,7 +39,7 @@ bot = Client("bot",
 
 owner_id = [6103594386]
 auth_users = [6103594386]
-photo1 = ''
+photo1 = 'https://i.ibb.co/9mt37JKG/x.png'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")    
 photo = "photo.jpg"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
@@ -61,14 +61,14 @@ keyboard = InlineKeyboardMarkup(
 # Image URLs for the random image feature
 image_urls = [
     
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
+    "https://i.ibb.co/9mt37JKG/x.png",
     # Add more image URLs as needed
 ]
 # Start command handler
