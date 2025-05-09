@@ -651,7 +651,7 @@ async def account_login(bot: Client, m: Message):
                                 chat_id=m.chat.id,
                                 caption = cc2,
                                 photo= f'{name}.jpg',  )
-                                count += 1
+                                #count += 1
                         except subprocess.CalledProcessError:
                             await message.reply("Failed to download the image. Please check the URL.")
                         except Exception as e:
