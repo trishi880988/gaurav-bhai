@@ -775,7 +775,7 @@ async def account_login(bot: Client, m: Message):
                         finally:
                             # Clean up the downloaded file
                             if os.path.exists(f'{name}.jpg'):
-                                os.remove(f'{name}.jpg'):
+                                os.remove(f'{name}.jpg')
                     
                if ".ws" in url and  url.endswith(".ws"):
                         try : 
