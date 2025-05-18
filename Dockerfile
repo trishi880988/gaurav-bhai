@@ -31,7 +31,7 @@ RUN wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip &
     rm -rf Bento4-1.6.0-639 v1.6.0-639.zip
 
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r chiru.txt
 
 # Set the command to run the application
 CMD ["sh", "-c", "gunicorn app:app & python3 main.py"]
