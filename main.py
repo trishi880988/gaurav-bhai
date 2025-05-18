@@ -590,7 +590,7 @@ async def account_login(bot: Client, m: Message):
               
             elif "classplusapp.com/drm/" in url:
                 url = 'https://dragoapi.vercel.app/classplus?link=' + url
-                mpd, keys = helper.get_mps_and_keys(url)
+                mpd, keys = chiru.get_mps_and_keys(url)
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
             
